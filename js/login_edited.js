@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (loginError) loginError.textContent = ""; // Clear previous errors
 
             try {
-                const response = await fetch("https://smartgovernment-fpcxb3cmfef3e6c0.uaenorth-01.azurewebsites.net/api/account/login", {
+                const response = await fetch("https://smartgovernment-fpcxb3cmfef3e6c0.uaenorth-01.azurewebsites.net/api/auth/login", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
