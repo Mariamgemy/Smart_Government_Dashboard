@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const data = await response.json();
                     localStorage.setItem("authToken", data.token); // Store the token
                     // Redirect to the main dashboard page (assuming it is index_edited.html)
-                    window.location.href = "index_edited.html"; 
+                    window.location.href = "index.html"; 
                 } else {
                     let errorMessage = "Login failed. Please check your credentials.";
                     try {
